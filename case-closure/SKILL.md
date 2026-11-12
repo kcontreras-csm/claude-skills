@@ -1,5 +1,6 @@
 ---
-name: case-closure
+name: Case Closure
+version: 1.0.0
 description: Draft a short case-closure notice email for a Salesforce support case number when the customer hasn't replied to our earlier messages or reminders. Use when the user says "close the case", "closure email", "closing notice", or "no response close" along with a case number (e.g. /case-closure 477221865).
 ---
 

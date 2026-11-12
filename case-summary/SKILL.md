@@ -1,5 +1,6 @@
 ---
-name: case-summary
+name: Case Summary
+version: 1.0.0
 description: Generate a "CASE AI SUMMARY GENERATED" handoff/summary for a Salesforce support case, given a case number (e.g. 476196596) or a case record Id (500...). Use when the user says "case summary", "summarize case", or "summary" along with a case number or Id (e.g. /case-summary 476196596).
 ---
 

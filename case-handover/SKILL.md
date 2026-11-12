@@ -1,5 +1,6 @@
 ---
-name: case-handover
+name: Case Handover
+version: 1.0.0
 description: Fill in the standard "HANDOVER DETAILS" template for a Salesforce support case being routed to another team, given a case number (e.g. 476196596) or a case record Id (500...) and the target team. Environment (Production/Sandbox) and Org ID or MID are optional and taken from the case when possible. Use when the user says "handover", "hand over", "route to", or "transfer to <team>" along with a case number (e.g. /case-handover 476196596 Marketing Cloud team).
 ---
 

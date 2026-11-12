@@ -1,5 +1,6 @@
 ---
-name: case-first-contact
+name: Case First Contact
+version: 1.0.0
 disable-model-invocation: true
 description: OrgCS case first-contact prep. Given a case number (e.g. 476196596) or a case record Id (500...), pulls the case (incl. Product & Topic and Product Feature), checks similar cases, known issues, Knowledge articles and the Lessons Learned log, decides scope / transfer / swarm-lead fast path, and drafts a short first-contact message (or a follow-up in "continue" mode). Use when the user says "first contact", "prep case", "new case", "first-contact prep", or "continue case" along with a case number (e.g. /case-first-contact 476196596, /case-first-contact continue 476196596).
 ---

@@ -1,5 +1,6 @@
 ---
-name: case-reminder
+name: Case Reminder
+version: 1.0.0
 description: Draft a short customer reminder email for a Salesforce support case number, asking for an update on the last thing we sent or asked. Use when the user says "reminder", "follow up", or "nudge" along with a case number (e.g. /case-reminder 476168508).
 ---
 

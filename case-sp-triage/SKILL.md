@@ -1,5 +1,6 @@
 ---
-name: case-sp-triage
+name: Case SP Triage
+version: 1.0.0
 description: Review all of the current user's open Salesforce support cases and give a neutral, evidence-based recommendation for which ones should move to Solution Provided, which need another follow-up touch first, which should stay where they are, and which are in the wrong Status or Sub-Status (e.g. Need More Information / Waiting on Customer while we owe the next step, or Solution Provided after the customer replied with an open issue). Read-only. Use when the user says "SP triage", "which cases to move to solution provided", "review my cases", "status cleanup", "clean my queue" or "metrics cleanup" (e.g. /case-sp-triage).
 ---
 
