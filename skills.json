@@ -4,78 +4,78 @@
   "skills": [
     {
       "id": "case-closure",
-      "name": "case-closure",
+      "name": "Case Closure",
       "description": "Draft a short case-closure notice email for a Salesforce support case number when the customer hasn't replied to our earlier messages or reminders. Use when the user says \"close the case\", \"closure email\", \"closing notice\", or \"no response close\" along with a case number (e.g. /case-closure 477221865).",
       "version": "1.0.0",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "e133e79e8d70e73d9514a0dac0da326c409db29d",
+          "sha": "27954fc263a7dc4ac2c6738ae2297beb7a97c1de",
           "size": 3990
         }
       ]
     },
     {
       "id": "case-first-contact",
-      "name": "case-first-contact",
+      "name": "Case First Contact",
       "description": "OrgCS case first-contact prep. Given a case number (e.g. 476196596) or a case record Id (500...), pulls the case (incl. Product & Topic and Product Feature), checks similar cases, known issues, Knowledge articles and the Lessons Learned log, decides scope / transfer / swarm-lead fast path, and drafts a short first-contact message (or a follow-up in \"continue\" mode). Use when the user says \"first contact\", \"prep case\", \"new case\", \"first-contact prep\", or \"continue case\" along with a case number (e.g. /case-first-contact 476196596, /case-first-contact continue 476196596).",
       "version": "1.0.0",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "0055d811120ba2d9ee4ddf31746272850325e57b",
+          "sha": "fe3eff863510106a49df9d150df36f8337e770fd",
           "size": 29685
         }
       ]
     },
     {
       "id": "case-handover",
-      "name": "case-handover",
+      "name": "Case Handover",
       "description": "Fill in the standard \"HANDOVER DETAILS\" template for a Salesforce support case being routed to another team, given a case number (e.g. 476196596) or a case record Id (500...) and the target team. Environment (Production/Sandbox) and Org ID or MID are optional and taken from the case when possible. Use when the user says \"handover\", \"hand over\", \"route to\", or \"transfer to <team>\" along with a case number (e.g. /case-handover 476196596 Marketing Cloud team).",
       "version": "1.0.0",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "beae3e52279e6d5ae50799c8ad9a04064124b4d6",
+          "sha": "11f4463f06ba0c3d7528462ce209bd0313822ddb",
           "size": 7606
         }
       ]
     },
     {
       "id": "case-reminder",
-      "name": "case-reminder",
+      "name": "Case Reminder",
       "description": "Draft a short customer reminder email for a Salesforce support case number, asking for an update on the last thing we sent or asked. Use when the user says \"reminder\", \"follow up\", or \"nudge\" along with a case number (e.g. /case-reminder 476168508).",
       "version": "1.0.0",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "181d1cf5d016de13c91a07135a38c76eded281e5",
+          "sha": "c7dcfa30fedbc2f252c3a4a8fc4b8ea1c7e4926a",
           "size": 2420
         }
       ]
     },
     {
       "id": "case-sp-triage",
-      "name": "case-sp-triage",
+      "name": "Case SP Triage",
       "description": "Review all of the current user's open Salesforce support cases and give a neutral, evidence-based recommendation for which ones should move to Solution Provided, which need another follow-up touch first, which should stay where they are, and which are in the wrong Status or Sub-Status (e.g. Need More Information / Waiting on Customer while we owe the next step, or Solution Provided after the customer replied with an open issue). Read-only. Use when the user says \"SP triage\", \"which cases to move to solution provided\", \"review my cases\", \"status cleanup\", \"clean my queue\" or \"metrics cleanup\" (e.g. /case-sp-triage).",
       "version": "1.0.0",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "289b7179c26a8bb4295988c06e821a96129b204c",
+          "sha": "7edc19083fb19a975835fb958933bb6de8901fb4",
           "size": 13896
         }
       ]
     },
     {
       "id": "case-summary",
-      "name": "case-summary",
+      "name": "Case Summary",
       "description": "Generate a \"CASE AI SUMMARY GENERATED\" handoff/summary for a Salesforce support case, given a case number (e.g. 476196596) or a case record Id (500...). Use when the user says \"case summary\", \"summarize case\", or \"summary\" along with a case number or Id (e.g. /case-summary 476196596).",
       "version": "1.0.0",
       "files": [
         {
           "path": "SKILL.md",
-          "sha": "13b86dbcd540c83fdd128ff56f3150df5265ad5e",
+          "sha": "e9d2d6ee81df9dd9d4bc2f89bd63067992f77898",
           "size": 4775
         }
       ]
