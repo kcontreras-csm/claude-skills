@@ -16,6 +16,19 @@
       ]
     },
     {
+      "id": "case-duplicate",
+      "name": "Case Duplicate",
+      "description": "Handle a duplicate Salesforce support case following the MX Sales Cloud team process. Given the duplicate case number and the original case number, checks both cases in OrgCS, drafts the internal post for the duplicate case (requesting non-visible / remove VSSP and close as duplicate), and drafts the Slack message asking Juan, Mau or Jorge to remove the View in Self Service Portal flag. Use when the user says \"duplicate\", \"duplicado\", \"caso duplicado\", \"close as duplicate\", \"non-VSSP\" or \"mark invisible\" along with case numbers (e.g. /case-duplicate 481564430 481564429).",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha": "f78a61fbe7352658eb57415452ccf061343c0fb7",
+          "size": 3762
+        }
+      ]
+    },
+    {
       "id": "case-first-contact",
       "name": "Case First Contact",
       "description": "OrgCS case first-contact prep. Given a case number (e.g. 476196596) or a case record Id (500...), pulls the case (incl. Product & Topic and Product Feature), checks similar cases, known issues, Knowledge articles and the Lessons Learned log, decides scope / transfer / swarm-lead fast path, and drafts a short first-contact message (or a follow-up in \"continue\" mode). Use when the user says \"first contact\", \"prep case\", \"new case\", \"first-contact prep\", or \"continue case\" along with a case number (e.g. /case-first-contact 476196596, /case-first-contact continue 476196596).",
